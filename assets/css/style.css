@@ -1,9 +1,5 @@
 /**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Updated: Jun 26 2024 with Bootstrap v5.3.1
 */
 
 /*--------------------------------------------------------------
@@ -267,18 +263,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #f9e0d9;
 }
 
 #hero p {
-  color: #fff;
+  color: #f9e0d9;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: #f9e0d9;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -417,7 +413,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #f9e0d9;
   margin-left: 60px;
 }
 
@@ -873,6 +869,10 @@ section {
   padding-bottom: 130px;
 }
 
+.contact p {
+  color: #f9e0d9;
+}
+
 .contact .info {
   padding: 30px;
   background: #13252F;
@@ -899,14 +899,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #f9e0d9;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #f9e0d9;
 }
 
 .contact .info .email p {
@@ -1010,6 +1010,7 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: #f9e0d9;
 }
 
 .contact .php-email-form input,
@@ -1017,6 +1018,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  background: #f9e0d9;
 }
 
 .contact .php-email-form input {
@@ -1031,7 +1033,7 @@ section {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #f9e0d9;
   transition: 0.4s;
   border-radius: 4px;
 }
