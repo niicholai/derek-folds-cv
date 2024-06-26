@@ -325,7 +325,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #f9e0d9;
 }
 
 .section-title h2::after {
@@ -346,6 +346,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: #13252F;
+}
+
+.about p {
+  color: #f9e0d9;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -361,6 +369,7 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: #f9e0d9;
 }
 
 .about .content ul strong {
@@ -379,18 +388,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Metrics
 --------------------------------------------------------------*/
-.facts {
+.metrics {
   padding-bottom: 30px;
+  background: #4281a4;
 }
 
-.facts .count-box {
+.metrics p {
+  color: #f9e0d9;
+ }
+
+.metrics .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.metrics .count-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
@@ -398,7 +412,7 @@ section {
   line-height: 0;
 }
 
-.facts .count-box span {
+.metrics .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -407,15 +421,15 @@ section {
   margin-left: 60px;
 }
 
-.facts .count-box p {
+.metrics .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #f9e0d9;
 }
 
-.facts .count-box a {
+.metrics .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -425,13 +439,21 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.metrics .count-box a:hover {
   color: #1f5297;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.skills {
+  background: #13252F;
+}
+
+.skills p {
+  color: #f9e0d9;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
