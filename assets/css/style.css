@@ -484,6 +484,40 @@ section {
   background-color: #149ddd;
 }
 
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255,255,255,0.1);
+  color: #f9e0d9;
+}
+
+td {
+  border: solid;
+  border-width: 1px 1px;
+  border-color: rgba(5,13,24,0.25);
+}
+
+th {
+  text-align: left;
+  color: #f9e0d9;
+  border: solid;
+  border-width: 0 1px;
+  border-color: rgba(66,129,164,0.5);
+}
+
+thead {
+  th {
+    background-color: rgba(5,13,24,0.68);
+  }
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
