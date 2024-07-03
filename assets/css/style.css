@@ -1,9 +1,5 @@
 /**
-* Template Name: iPortfolio
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Updated: Jun 26 2024 with Bootstrap v5.3.1
 */
 
 /*--------------------------------------------------------------
@@ -267,18 +263,18 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #f9e0d9;
 }
 
 #hero p {
-  color: #fff;
+  color: #f9e0d9;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: #f9e0d9;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -312,7 +308,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #4281a4;
 }
 
 .section-title {
@@ -325,7 +321,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #f9e0d9;
 }
 
 .section-title h2::after {
@@ -346,6 +342,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: #4281a4;
+}
+
+.about p {
+  color: #f9e0d9;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -361,6 +365,7 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: #f9e0d9;
 }
 
 .about .content ul strong {
@@ -379,18 +384,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Metrics
 --------------------------------------------------------------*/
-.facts {
+.metrics {
   padding-bottom: 30px;
+  background: #13252F;
 }
 
-.facts .count-box {
+.metrics p {
+  color: #f9e0d9;
+ }
+
+.metrics .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.metrics .count-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
@@ -398,24 +408,24 @@ section {
   line-height: 0;
 }
 
-.facts .count-box span {
+.metrics .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #f9e0d9;
   margin-left: 60px;
 }
 
-.facts .count-box p {
+.metrics .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #f9e0d9;
 }
 
-.facts .count-box a {
+.metrics .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -425,13 +435,21 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.metrics .count-box a:hover {
   color: #1f5297;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.skills {
+  background: #4281a4;
+}
+
+.skills p {
+  color: #f9e0d9;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -466,15 +484,52 @@ section {
   background-color: #149ddd;
 }
 
+table {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255,255,255,0.1);
+  color: #f9e0d9;
+}
+
+td {
+  border: solid;
+  border-width: 1px 1px;
+  border-color: rgba(5,13,24,0.25);
+}
+
+th {
+  text-align: left;
+  color: #f9e0d9;
+  border: solid;
+  border-width: 0 1px;
+  border-color: rgba(66,129,164,0.5);
+}
+
+thead {
+  th {
+    background-color: rgba(5,13,24,0.68);
+  }
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume {
+  background: #13252F;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
 }
 
 .resume .resume-item {
@@ -484,23 +539,36 @@ section {
   position: relative;
 }
 
+.resume li {
+  color: #f9e0d9;
+}
+
+.resume p {
+  color: #f9e0d9;
+}
+
+.resume h3 {
+  color: #f9e0d9;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #f9e0d9;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #f9e0d9;
+  background-color: rgba(5,13,24,0.68);
 }
 
 .resume .resume-item ul {
@@ -847,9 +915,13 @@ section {
   padding-bottom: 130px;
 }
 
+.contact p {
+  color: #f9e0d9;
+}
+
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #13252F;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -873,14 +945,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #f9e0d9;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #f9e0d9;
 }
 
 .contact .info .email p {
@@ -921,7 +993,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #13252F;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -984,6 +1056,7 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: #f9e0d9;
 }
 
 .contact .php-email-form input,
@@ -991,6 +1064,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  background: #f9e0d9;
 }
 
 .contact .php-email-form input {
@@ -1005,7 +1079,7 @@ section {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #f9e0d9;
   transition: 0.4s;
   border-radius: 4px;
 }
