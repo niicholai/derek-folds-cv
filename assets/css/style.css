@@ -530,7 +530,6 @@ thead {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
 }
 
 .resume .resume-item {
@@ -540,23 +539,36 @@ thead {
   position: relative;
 }
 
+.resume li {
+  color: #f9e0d9;
+}
+
+.resume p {
+  color: #f9e0d9;
+}
+
+.resume h3 {
+  color: #f9e0d9;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #f9e0d9;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #f9e0d9;
+  background-color: rgba(5,13,24,0.68);
 }
 
 .resume .resume-item ul {
